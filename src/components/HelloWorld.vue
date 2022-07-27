@@ -53,7 +53,7 @@ export default {
   data() {
     return {
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
-      sdkKey: process.env.VUE_APP_SDK_KEY,
+      sdkKey: process.env.VUE_APP_ZOOM_SDK_KEY,
       leaveUrl: process.env.VUE_APP_LEAVE_URL,
       meetingNumber: '',
       passWord: '',

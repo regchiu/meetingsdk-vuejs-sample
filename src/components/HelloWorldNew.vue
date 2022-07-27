@@ -58,7 +58,7 @@ export default {
     return {
       client: ZoomMtgEmbedded.createClient(),
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
-      sdkKey: process.env.VUE_APP_SDK_KEY,
+      sdkKey: process.env.VUE_APP_ZOOM_SDK_KEY,
       meetingNumber: '',
       passWord: '',
       /*
