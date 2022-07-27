@@ -1,25 +1,27 @@
 <template>
   <div id="app">
     <HelloWorld />
+    <!-- <HelloWorldNew /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorldNew from './components/HelloWorldNew.vue'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    // HelloWorldNew
+  },
+};
 </script>
 
 <style>
 #app {
   width: 70%;
   margin: auto;
-  text-align: center;
 }
 #zmmtg-root {
   display: none;
